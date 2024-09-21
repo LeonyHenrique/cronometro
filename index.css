@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.container{
+    background-color: rgb(83, 100, 95);
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 150px;
+    text-align: center;
+}
+#temporizador{
+    font-size: 50px;
+    text-align: center;
+
+}
+.grupo-botoes{
+    padding: 20px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+button{
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+button.btn-iniciar{
+    background-color: green;
+
+}
+button.btn-pausar{
+    background-color: rgba(152, 184, 212, 0.582);
+}
+button.btn-zerar{
+    background-color: rgba(255, 0, 0, 0.671);
+}
